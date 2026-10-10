@@ -131,10 +131,6 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Skyltliu&theme=github_dark&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=f5c2e7&border_color=313244&chart_color=cba6f7&animation=fade" width="49%" alt="Most commit language" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Skyltliu&custom_title=Contribution%20Activity&bg_color=1e1e2e&title_color=cba6f7&color=cdd6f4&line=cba6f7&point=f5c2e7&area_color=cba6f7&area=true&hide_border=true&radius=8&days=30" alt="Activity graph" />
-</p>
-
 ---
 
 ## 🐍 Watch the snake eat my contributions
