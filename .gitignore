@@ -1,0 +1,2 @@
+# Keep local resumes and other PDFs out of the repo
+*.pdf

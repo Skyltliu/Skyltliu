@@ -33,7 +33,7 @@
   </tr>
   <tr>
     <td align="right"><b>&nbsp;AI / ML&nbsp;</b></td>
-    <td><img src="https://skillicons.dev/icons?i=pytorch,sklearn,anaconda&theme=dark" alt="AI and ML" /></td>
+    <td><img src="https://skillicons.dev/icons?i=sklearn,anaconda&theme=dark" alt="AI and ML" /></td>
   </tr>
   <tr>
     <td align="right"><b>&nbsp;Web&nbsp;</b></td>
