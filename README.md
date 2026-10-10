@@ -16,7 +16,7 @@
 - 🎓 **M.S. in Computer Science** @ New York University
 - 🎓 **B.S. in Computer Science & Linguistics** @ University of Illinois Urbana-Champaign
 - 💼 ex-SWE Intern @ AVIAGE Systems (GE Aerospace & AVIC JV)
-- 🔬 Research experience in computational biology and machine learning @ UIUC
+- 🔬 Research experience in accessibility, education, computational biology, and machine learning @ UIUC
 - 🛠️ Currently building **[LocoAgent](https://github.com/Skyltliu/LocoAgent)**, a lightweight terminal AI coding agent supporting multiple LLM providers
 - 💳 Built **[PayLedger](https://github.com/Skyltliu/pay-ledger)**, a fault-tolerant distributed payment service using Raft consensus
 - 📡 Developed a real-time **[LiDAR Scanning Simulator](https://github.com/Skyltliu/LiDAR)** in Unreal Engine 5
