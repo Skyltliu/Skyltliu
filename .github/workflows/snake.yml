@@ -1,0 +1,39 @@
+name: Generate Profile Assets
+
+on:
+  schedule:
+    # every 12 hours
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Render contribution grid to SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # Catppuccin Mocha mauve snake, one light + one dark variant
+          outputs: |
+            dist/snake.svg?color_snake=#cba6f7&color_dots=#ebedf0,#dcd0f5,#c4a7f0,#a97fe0,#8839ef
+            dist/snake-dark.svg?palette=github-dark&color_snake=#cba6f7&color_dots=#1e1e2e,#45475a,#7f849c,#b4befe,#cba6f7
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
