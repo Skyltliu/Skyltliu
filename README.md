@@ -6,7 +6,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/sky-liu"><img src="https://img.shields.io/badge/LinkedIn-sky--liu-cba6f7?style=for-the-badge&logo=linkedin&logoColor=cba6f7&labelColor=1e1e2e&color=313244" alt="LinkedIn" /></a>
   <a href="mailto:skyltliu@gmail.com"><img src="https://img.shields.io/badge/Email-skyltliu-a6e3a1?style=for-the-badge&logo=gmail&logoColor=a6e3a1&labelColor=1e1e2e&color=313244" alt="Email" /></a>
-  <a href="https://github.com/Skyltliu"><img src="https://img.shields.io/badge/GitHub-Skyltliu-f5c2e7?style=for-the-badge&logo=github&logoColor=f5c2e7&labelColor=1e1e2e&color=313244" alt="GitHub" /></a>
 </p>
 
 ---
@@ -16,7 +15,7 @@
 - 🎓 **M.S. in Computer Science** @ New York University
 - 🎓 **B.S. in Computer Science & Linguistics** @ University of Illinois Urbana-Champaign
 - 💼 ex-SWE Intern @ AVIAGE Systems (GE Aerospace & AVIC JV)
-- 🔬 Research experience in computational biology and machine learning @ UIUC
+- 🔬 Research experience in accessibility, education, computational biology, and machine learning @ UIUC
 - 🛠️ Currently building **[LocoAgent](https://github.com/Skyltliu/LocoAgent)**, a lightweight terminal AI coding agent supporting multiple LLM providers
 - 💳 Built **[PayLedger](https://github.com/Skyltliu/pay-ledger)**, a fault-tolerant distributed payment service using Raft consensus
 - 📡 Developed a real-time **[LiDAR Scanning Simulator](https://github.com/Skyltliu/LiDAR)** in Unreal Engine 5
