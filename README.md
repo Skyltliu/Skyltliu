@@ -62,7 +62,7 @@
     <td width="50%" valign="top">
       <h3 align="center">🤖 LocoAgent</h3>
       <p align="center">
-        <a href="https://github.com/Skyltliu/LocoAgent"><img src="https://img.shields.io/github/stars/Skyltliu/LocoAgent?style=flat-square&logo=github&logoColor=cba6f7&labelColor=1e1e2e&color=313244" alt="Stars" /></a>
+        <a href="https://github.com/Skyltliu/LocoAgent"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FSkyltliu%2FSkyltliu%2Foutput%2Fstars%2FLocoAgent.json&style=flat-square&logo=github&logoColor=cba6f7&labelColor=1e1e2e&color=313244" alt="Stars" /></a>
       </p>
       <p align="center">A lightweight terminal AI coding agent supporting OpenAI, Anthropic, and local models via Ollama. Features tool calling, layered memory, history compression, cached workspace context, persistent sessions, and checkpoint recovery.</p>
       <p align="center"><img src="https://skillicons.dev/icons?i=python&theme=dark" height="32" alt="LocoAgent stack" /></p>
@@ -71,7 +71,7 @@
     <td width="50%" valign="top">
       <h3 align="center">💳 PayLedger</h3>
       <p align="center">
-        <a href="https://github.com/Skyltliu/pay-ledger"><img src="https://img.shields.io/github/stars/Skyltliu/pay-ledger?style=flat-square&logo=github&logoColor=cba6f7&labelColor=1e1e2e&color=313244" alt="Stars" /></a>
+        <a href="https://github.com/Skyltliu/pay-ledger"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FSkyltliu%2FSkyltliu%2Foutput%2Fstars%2Fpay-ledger.json&style=flat-square&logo=github&logoColor=cba6f7&labelColor=1e1e2e&color=313244" alt="Stars" /></a>
       </p>
       <p align="center">A fault-tolerant distributed payment service built with Go, HashiCorp Raft, gRPC, and BadgerDB. Implements atomic idempotency, replicated writes, leader failover, snapshots, and crash recovery across a three-node cluster.</p>
       <p align="center"><img src="https://skillicons.dev/icons?i=go,docker&theme=dark" height="32" alt="PayLedger stack" /></p>
@@ -82,7 +82,7 @@
     <td width="50%" valign="top">
       <h3 align="center">📡 LiDAR Scanning Simulator</h3>
       <p align="center">
-        <a href="https://github.com/Skyltliu/LiDAR"><img src="https://img.shields.io/github/stars/Skyltliu/LiDAR?style=flat-square&logo=github&logoColor=cba6f7&labelColor=1e1e2e&color=313244" alt="Stars" /></a>
+        <a href="https://github.com/Skyltliu/LiDAR"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FSkyltliu%2FSkyltliu%2Foutput%2Fstars%2FLiDAR.json&style=flat-square&logo=github&logoColor=cba6f7&labelColor=1e1e2e&color=313244" alt="Stars" /></a>
       </p>
       <p align="center">Real-time 3D LiDAR simulation in Unreal Engine 5 using batched C++ ray traces and instanced rendering. Visualizes 10K+ point clouds with a 50% performance improvement over per-point Actor rendering.</p>
       <p align="center"><img src="https://skillicons.dev/icons?i=cpp,unreal&theme=dark" height="32" alt="LiDAR stack" /></p>

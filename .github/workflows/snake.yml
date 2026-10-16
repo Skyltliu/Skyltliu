@@ -30,6 +30,18 @@ jobs:
             dist/snake.svg?color_snake=#cba6f7&color_dots=#ebedf0,#dcd0f5,#c4a7f0,#a97fe0,#8839ef
             dist/snake-dark.svg?palette=github-dark&color_snake=#cba6f7&color_dots=#1e1e2e,#45475a,#7f849c,#b4befe,#cba6f7
 
+      # shields.io's shared GitHub token pool runs dry ("Unable to select next GitHub
+      # token from pool"), so publish star counts ourselves for endpoint badges
+      - name: Write star count badges
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p dist/stars
+          for repo in LocoAgent pay-ledger LiDAR; do
+            stars=$(gh api "repos/${{ github.repository_owner }}/$repo" --jq .stargazers_count)
+            echo "{\"schemaVersion\":1,\"label\":\"stars\",\"message\":\"$stars\"}" > "dist/stars/$repo.json"
+          done
+
       - name: Publish to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
