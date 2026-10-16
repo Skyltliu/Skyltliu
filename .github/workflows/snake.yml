@@ -36,6 +36,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # snk runs in Docker as root, so dist/ isn't writable by the runner user
+          sudo chown -R "$(id -u):$(id -g)" dist
           mkdir -p dist/stars
           for repo in LocoAgent pay-ledger LiDAR; do
             stars=$(gh api "repos/${{ github.repository_owner }}/$repo" --jq .stargazers_count)
